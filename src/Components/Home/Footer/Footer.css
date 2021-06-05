@@ -1,0 +1,50 @@
+.home-footer {
+  position: absolute;
+  top: 1500px;
+  left: 300px;
+}
+.home-footer-p {
+  border-right: 4px #ede6b9 solid;
+}
+.copy-right {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 120px;
+  left: 450px;
+  color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-footer {
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+  }
+  .home-footer-p {
+    border-right: 4px #ede6b9 solid;
+  }
+  .copy-right {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    color: grey;
+  }
+}
+@media only screen and (max-width: 328px) {
+  .home-footer {
+    font-size: 10px;
+    position: absolute;
+    top: 1200px;
+    left: 20px;
+  }
+  .home-footer-p {
+    border-right: 4px #ede6b9 solid;
+  }
+  .copy-right {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: grey;
+  }
+}

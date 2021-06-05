@@ -1,0 +1,26 @@
+.project_header {
+  text-align: center;
+  background-color: #ede6b9;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+.project_header h1 {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .project_header h5 {
+    font-size: 1rem;
+  }
+  .project_header h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .project_header h5 {
+    font-size: 0.8rem;
+  }
+  .project_header h1 {
+    font-size: 1.5rem;
+  }
+}

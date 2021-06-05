@@ -1,0 +1,113 @@
+.band {
+  padding-top: 5rem;
+}
+.project_card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+.project_card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+}
+.project_card article {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project_card h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.project_card p {
+  text-align: justify;
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+}
+.project_card .thumb {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+.card-1 {
+  background-image: url("../../../Images/Swiftdelivery\ thumb.png");
+}
+.card-2 {
+  background-image: url("../../../Images/Premium\ Product.PNG");
+}
+.card-3 {
+  background-image: url("../../../Images/Movie\ Max.PNG");
+}
+.card-4 {
+  background-image: url("../../../Images/Ema-John.PNG");
+}
+.card-5 {
+  background-image: url("../../../Images/Bloggerly.PNG");
+}
+
+.item {
+  padding-bottom: 2rem;
+}
+
+a.icon-link {
+  color: #829079;
+  transition: 200ms ease-in-out;
+}
+a.icon-link i {
+  color: #ee4747;
+}
+a.icon-link:hover {
+  color: #ffb535;
+  text-decoration: none;
+}
+
+/* test */
+.btn-project {
+  color: #b9925e;
+  background-color: transparent;
+
+  border-radius: 0;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0;
+  border: none;
+}
+.btn-project:focus {
+  box-shadow: none;
+}
+/* .btn-project:hover {
+  color: #ede6b9;
+  background-color: #b9925e;
+  text-decoration: none;
+} */
+.btn-project.btn-project--with-icon {
+  padding-right: 20px;
+}
+.btn-project.btn-project--with-icon:hover {
+  text-decoration: none;
+  padding: 0px 30px 0px 15px;
+  margin-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: bottom;
+  color: white;
+  background-color: #b9925e;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+}

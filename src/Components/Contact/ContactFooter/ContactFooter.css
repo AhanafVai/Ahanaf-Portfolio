@@ -1,0 +1,11 @@
+.footer_ p {
+  color: #829079;
+}
+.footer_ p:hover {
+  color: #b9925e;
+}
+@media only screen and (max-width: 320px) {
+  .footer_ p {
+    font-size: 0.75rem;
+  }
+}

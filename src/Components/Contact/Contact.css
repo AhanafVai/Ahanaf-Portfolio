@@ -1,0 +1,80 @@
+.contact_form {
+  width: 24rem;
+  margin-top: 5rem;
+  margin-left: 200px;
+}
+.contact_ {
+  background-color: #ede6b9;
+  height: 350px;
+}
+
+.contact_ h1 {
+  padding-top: 250px;
+  padding-left: 200px;
+}
+.contact_para {
+  padding-top: 4rem;
+  padding-left: 200px;
+}
+.contact_p {
+  padding-left: 200px;
+}
+.contact_btn {
+  border: none;
+
+  padding: 8px;
+  margin-top: 2rem;
+  color: whitesmoke;
+  background-color: #b9925e;
+}
+.contact_btn:hover {
+  color: #829079;
+  background-color: #ede6b9;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact_ h1 {
+    font-size: 2rem;
+  }
+  .contact_p {
+    font-size: 1rem;
+  }
+  .contact_para {
+    font-size: 0.9rem;
+  }
+  .contact_btn {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  .contact_ {
+    background-color: #ede6b9;
+    height: 180px;
+  }
+  .contact_ h1 {
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .contact_form {
+    width: 16rem;
+    margin-top: 5rem;
+    margin-left: 40px;
+  }
+  .contact_ {
+    background-color: #ede6b9;
+    height: 350px;
+  }
+
+  .contact_ h1 {
+    padding-top: 250px;
+    padding-left: 40px;
+  }
+  .contact_para {
+    padding-top: 4rem;
+    padding-left: 40px;
+  }
+  .contact_p {
+    padding-left: 40px;
+  }
+}

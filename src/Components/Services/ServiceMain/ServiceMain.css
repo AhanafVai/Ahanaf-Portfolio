@@ -1,0 +1,34 @@
+.card {
+  width: 24rem;
+  margin-bottom: 10rem;
+}
+.service-title {
+  text-align: center;
+  padding-top: 8rem;
+  color: #829079;
+}
+.service-title h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.service-title p,
+li {
+  color: black;
+}
+
+.service-icons {
+  width: 180px;
+  height: 200px;
+  padding: 20px;
+}
+.design-list {
+  position: relative;
+  right: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 30rem;
+    margin-bottom: 10px;
+  }
+}
