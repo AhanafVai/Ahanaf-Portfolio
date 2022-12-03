@@ -34,6 +34,7 @@ const MainSection = () => {
           download
           target="_blank"
           type="button"
+          rel="noreferrer"
         >
           Download Resume
         </a>
