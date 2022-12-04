@@ -8,7 +8,11 @@ const Navbar = () => {
       <input type="checkbox" id="openmenu" class="hamburger-checkbox" />
 
       <div class="hamburger-icon">
-        <label for="openmenu" id="hamburger-label">
+        <label
+          style={{ cursor: "pointer" }}
+          for="openmenu"
+          id="hamburger-label"
+        >
           <span></span>
           <span></span>
           <span></span>

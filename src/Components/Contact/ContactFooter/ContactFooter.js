@@ -18,14 +18,6 @@ const ContactFooter = () => {
           {" "}
           <p>Projects</p>
         </Link>
-        <Link className="text-decoration-none">
-          {" "}
-          <p>Blogs</p>
-        </Link>
-        <Link className="text-decoration-none">
-          {" "}
-          <p>Privacy</p>
-        </Link>
       </div>
       <div className="col-md-3 col-4">
         <p>LinkedIn</p>

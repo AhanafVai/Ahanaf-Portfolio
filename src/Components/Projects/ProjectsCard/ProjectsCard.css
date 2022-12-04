@@ -32,7 +32,6 @@
 }
 
 .project_card p {
-  text-align: justify;
   font-size: 12px;
   font-weight: bold;
   color: #999;
@@ -43,22 +42,22 @@
 .project_card .thumb {
   padding-bottom: 60%;
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
 }
 .card-1 {
-  background-image: url("../../../Images/Swiftdelivery\ thumb.png");
+  background-image: url("../../../Images/housemark.png");
 }
 .card-2 {
-  background-image: url("../../../Images/Premium\ Product.PNG");
+  background-image: url("../../../Images/githubprofile.png");
 }
 .card-3 {
-  background-image: url("../../../Images/Movie\ Max.PNG");
+  background-image: url("../../../Images/nethub.png");
 }
 .card-4 {
-  background-image: url("../../../Images/Ema-John.PNG");
+  background-image: url("../../../Images/recipeBook.png");
 }
 .card-5 {
-  background-image: url("../../../Images/Bloggerly.PNG");
+  background-image: url("../../../Images/viteJobs.png");
 }
 
 .item {

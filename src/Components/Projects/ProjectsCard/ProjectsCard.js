@@ -8,34 +8,25 @@ const ProjectsCard = () => {
         <div className="project_card">
           <div className="thumb card-1"></div>
           <article>
-            <h1>Swift Delivery</h1>
+            <h1>House-mark</h1>
             <p>
               Source COde: {""}
               <a
-                href="https://github.com/AhanafVai/swift-Delivery-Client"
+                href="https://github.com/AhanafVai/Housemark"
                 target="_blank"
                 className="icon-link me-1"
+                rel="noreferrer"
               >
                 Client
               </a>
-              |
-              <a
-                href="https://github.com/AhanafVai/Swift-Delivery-Server"
-                target="_blank"
-                className="icon-link ms-1"
-              >
-                Server
-              </a>
             </p>
-            <p>
-              An delivery service app which manages all the customers and
-              companies needs.
-            </p>
+            <p>An one stop place for all your housing solutions.</p>
             <div>
               <a
-                href="https://swift-delivery.netlify.app"
+                href="https://housemark.vercel.app"
                 target="_blank"
                 class="btn-project btn-project--with-icon"
+                rel="noreferrer"
               >
                 Live Preview
               </a>
@@ -48,31 +39,28 @@ const ProjectsCard = () => {
         <div className="project_card">
           <div className="thumb card-2"></div>
           <article>
-            <h1>Premium Product Store</h1>
+            <h1>Github Profiles</h1>
             <p>
               Source COde: {""}
               <a
-                href="https://github.com/AhanafVai/Premium-Store-Client"
+                href="https://github.com/AhanafVai/github-profiles"
                 target="_blank"
                 className="icon-link me-1"
+                rel="noreferrer"
               >
                 Client
               </a>
-              |
-              <a
-                href="https://github.com/AhanafVai/Premium-Store-Server"
-                target="_blank"
-                className="icon-link ms-1"
-              >
-                Server
-              </a>
             </p>
-            <p>An e-commerce webapp built on MERN stack environment.</p>
+            <p>
+              Github Profiles is a React app to search GitHub profiles and see
+              profile details.
+            </p>
             <div>
               <a
-                href="https://nervous-gates-f659a5.netlify.app"
+                href="https://github-profiles-amber-delta.vercel.app"
                 target="_blank"
                 class="btn-project btn-project--with-icon"
+                rel="noreferrer"
               >
                 Live Preview
               </a>
@@ -85,14 +73,16 @@ const ProjectsCard = () => {
         <div className="project_card">
           <div className="thumb card-3"></div>
           <article>
-            <h1>Movie Max</h1>
+            <h1>NetHub</h1>
             <p>
+              Source COde:
               <a
-                href="https://github.com/AhanafVai/Movie-Max"
+                href="https://github.com/AhanafVai/NETHUB"
                 target="_blank"
                 className="icon-link me-1"
+                rel="noreferrer"
               >
-                Source COde:
+                Client
               </a>
             </p>
             <p>
@@ -101,9 +91,10 @@ const ProjectsCard = () => {
             </p>
             <div>
               <a
-                href="https://movie-max.netlify.app"
+                href="https://net-hub.netlify.app"
                 target="_blank"
                 class="btn-project btn-project--with-icon"
+                rel="noreferrer"
               >
                 Live Preview
               </a>
@@ -116,31 +107,25 @@ const ProjectsCard = () => {
         <div className="project_card">
           <div className="thumb card-4"></div>
           <article>
-            <h1>Premium Product Store</h1>
+            <h1>Recipe Book</h1>
             <p>
               Source COde: {""}
               <a
-                href="https://github.com/AhanafVai/ema-john-client"
+                href="https://github.com/AhanafVai/recipe-book"
                 target="_blank"
                 className="icon-link me-1"
+                rel="noreferrer"
               >
                 Client
               </a>
-              |
-              <a
-                href="https://github.com/AhanafVai/ema-john-server"
-                target="_blank"
-                className="icon-link ms-1"
-              >
-                Server
-              </a>
             </p>
-            <p>An e-commerce webapp built on MERN stack environment.</p>
+            <p>Less booking more cooking</p>
             <div>
               <a
-                href="https://confident-archimedes-b89534.netlify.app"
+                href="https://recipe-book-mu.vercel.app"
                 target="_blank"
                 class="btn-project btn-project--with-icon"
+                rel="noreferrer"
               >
                 Live Preview
               </a>
@@ -153,34 +138,28 @@ const ProjectsCard = () => {
         <div className="project_card">
           <div className="thumb card-5"></div>
           <article>
-            <h1>Premium Product Store</h1>
+            <h1>Vite jobs</h1>
             <p>
               Source COde: {""}
               <a
-                href="https://github.com/AhanafVai/Bloggerly-client"
+                href="https://github.com/AhanafVai/Vite-jobs"
                 target="_blank"
                 className="icon-link me-1"
+                rel="noreferrer"
               >
                 Client
               </a>
-              |
-              <a
-                href="https://github.com/AhanafVai/Bloggerly-Server"
-                target="_blank"
-                className="icon-link ms-1"
-              >
-                Server
-              </a>
             </p>
             <p>
-              A blogSite for tech geeks. Built in MERN stack and team
-              collaboration
+              This is a solution to the Job listings with filtering challenge on
+              Frontend Mentor.
             </p>
             <div>
               <a
-                href="https://bloggerly.netlify.app"
+                href="https://vite-jobs.vercel.app"
                 target="_blank"
                 class="btn-project btn-project--with-icon"
+                rel="noreferrer"
               >
                 Live Preview
               </a>
@@ -195,6 +174,7 @@ const ProjectsCard = () => {
             className="btn-project text-decoration-none"
             href="https://github.com/AhanafVai"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
